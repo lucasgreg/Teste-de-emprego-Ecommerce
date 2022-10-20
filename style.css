@@ -430,3 +430,21 @@ button:hover{
         width: 60%;
     }
 }
+
+/*----BOTAO VOLTAR----*/
+
+#btn-voltar{
+    position: fixed;
+    bottom: 20px;
+    width: 70px;
+    right: 10px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 2px 1px 6px 2px gray;
+}
+
+#btn-voltar:hover{
+    box-shadow: 2px 1px 6px 2px red;
+
+    background-color: red;
+}
